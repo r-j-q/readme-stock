@@ -26,10 +26,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 <!-- [跨域](https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf
 ) -->
 #### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+ 
 
 #### Instructions
 
@@ -42,7 +39,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 1.  [第一步](https://play.google.com/console)
 2.  Create Feat_xxx branch
 3.  Commit your code
-4.  https://play.google.com/console
+4.  https://play.google.com/console 
 
 <!-- [时分图](https://www.isqqw.com/echartsdetail?id=34201) -->
 #### Gitee Feature
@@ -88,13 +85,9 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
   
   
   <!-- IOS 证书生成 
-  
    Description  ===  Stock plouto
    Bundle ID    ===  stockplouto.com.app
-   
-  
-  p12的证书密码 Phstart@8
-  
+   p12的证书密码 Phstart@8
   描述文件名称  stockPloutoProfile
   -->
   
@@ -111,3 +104,47 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
   
 <!--  Jame.plouto8@gmail.com
   googleJame9. -->
+
+
+
+
+  <!-- google支付 https://uniapp.dcloud.io/tutorial/app-payment-google.html  -->
+
+
+
+
+
+
+
+
+  <!-- 苹果支付申请   
+  
+  stockplouto  
+
+  Name:stockplouto
+  Key ID:K4FC4DFHG4
+  Services:Apple Push Notifications service (APNs), DeviceCheck, ClassKit Catalog
+
+
+
+   -->
+
+
+
+   <!-- 
+   高飞卡
+  4514617688790114
+   0426
+   226
+    -->
+
+<!-- 
+应用描述
+Stock Plouto provide advice on stock investing and trading, as well as in-depth analysis, trading ideas and recommendations.
+Fixed some bugs and page optimization.
+ -->
+
+
+
+
+ 
