@@ -61,8 +61,14 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
  1986年06月02日
  593313908@qq.com
  stock.plouto@gmail.com  密码  Phstart@8Phstart@8
+
+ Appid =    stock.plouto@gmail.com
+ appid密码 =   Phstart@8
+
  00852 55708229
  
+被用验证码  27895672
+ 账号密码修改为  Phstart@8fit@9
  -->
  
  
@@ -94,7 +100,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
   
   <!-- 谷歌开发者账号 
     账号 stock.plouto@gmail.com 
-	开发者 lucky-good
+	  开发者 lucky-good
   
   -->
   
@@ -133,7 +139,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 
    <!-- 
    高飞卡
-  4514617688790114
+  4514 6176 8879 0114
    0426
    226
     -->
@@ -142,9 +148,33 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 应用描述
 Stock Plouto provide advice on stock investing and trading, as well as in-depth analysis, trading ideas and recommendations.
 Fixed some bugs and page optimization.
+
+UUID描述文件
+https://messapps.com/allcategories/development/finding-ios-devices-udid-via-itunes-2/
+https ://get.udid.io/ 
  -->
 
 
 
 
+ <!-- 
  
+ IOS应用内项目配置
+    wealthQuarterlyGuide
+    Wealth Quarterly Guide      ID:    stockguide000001
+    Stock Vane     ID: stockguide000002
+    Stock Signals     ID: stockguide000003    198 
+    Stock Signals subscribe/Q      ID: stockguide000004      
+    Stock Signals subscribe/Y     ID: stockguide000005     
+
+    Helping you get rid of complex data and information
+Offering decisions on investment based on data models
+  -->
+     
+  <!-- 181119 -->
+
+
+  <!-- git  token    e339dbea2ddaaed811accb8ebfd15d762a05e521  -->
+<!-- 账号  stockTest
+     密码   671222 -->
+  <!--沙箱账号 3301243623@qq.com  密码   Phstart@8    -->
