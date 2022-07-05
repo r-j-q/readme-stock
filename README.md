@@ -7,15 +7,21 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 
  keytool -genkey -alias ploutostock   -keyalg RSA -keysize 2048 -validity 36500 -keystore /Users/ranjingqiao/Downloads/stockpenhaiPlouto.keystore
 
-证书别名   ploutostock
-证书名字   stockpenhaiPlouto
- 输入密药口令： Wstock.@plou693acranjingqiao  
+证书别名   ploutoApp
+ 证书名字   ploutoApp
+ 输入密药口令： Wstocks.@plou693acranjingqiao 
  您的名字与姓氏是什么 陈羽
  您的组织单位名称是什么 成都鹏海科技有限公司
  您的组织名称是什么   成都鹏海科技有限公司
  您所在的城市或区域名称是什么?  四川省
  您所在的省/市/自治区名称是什么? 成都市
  该单位的双字母国家/地区代码是什么?  510100 -->
+
+
+ <!-- keytool -genkey -alias ploutoApp -keyalg RSA -sigalg SHA1WithRSA -validity 36500 -keysize 1024 -keystore ploutoApp.keystore -v   -->
+
+
+ <!--  keytool -importkeystore -srckeystore ./ploutoApp.keystore -destkeystore ./ploutoApp.keystore -deststoretype JKS   -->
 #### Description
  
 
@@ -161,11 +167,11 @@ https ://get.udid.io/
  
  IOS应用内项目配置
     wealthQuarterlyGuide
-    Wealth Quarterly Guide      ID:    stockguide000001
-    Stock Vane     ID: stockguide000002
-    Stock Signals     ID: stockguide000003    198 
-    Stock Signals subscribe/Q      ID: stockguide000004      
-    Stock Signals subscribe/Y     ID: stockguide000005     
+    Wealth Quarterly Guide      ID:    stockguide000001    HK$238.00   30.32
+    Stock Vane     ID: stockguide000002    23    2.93
+    Stock Signals     ID: stockguide000003    1588  202.31 
+    Stock Signals subscribe/Q      ID: stockguide000004  3488      444.37 
+    Stock Signals subscribe/Y     ID: stockguide000005     7888    1004.93
 
     Helping you get rid of complex data and information
 Offering decisions on investment based on data models
@@ -178,3 +184,8 @@ Offering decisions on investment based on data models
 <!-- 账号  stockTest
      密码   671222 -->
   <!--沙箱账号 3301243623@qq.com  密码   Phstart@8    -->
+
+
+
+
+  <!-- ploutoapp@9 -->
