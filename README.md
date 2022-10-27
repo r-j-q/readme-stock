@@ -7,9 +7,11 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 
  keytool -genkey -alias ploutostock   -keyalg RSA -keysize 2048 -validity 36500 -keystore /Users/ranjingqiao/Downloads/stockpenhaiPlouto.keystore
 
+
+
 证书别名   ploutoApp
  证书名字   ploutoApp
- 输入密药口令： Wstocks.@plou693acranjingqiao 
+ 输入密药口令： Wstocks.@plou693acranjingqiao   
  您的名字与姓氏是什么 陈羽
  您的组织单位名称是什么 成都鹏海科技有限公司
  您的组织名称是什么   成都鹏海科技有限公司
@@ -20,10 +22,54 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
 
  <!-- keytool -genkey -alias ploutoApp -keyalg RSA -sigalg SHA1WithRSA -validity 36500 -keysize 1024 -keystore ploutoApp.keystore -v   -->
 
+ <!-- keytool -genkey -alias ploutog -keyalg RSA -sigalg SHA1WithRSA -validity 36500 -keysize 1024 -keystore ploutog.keystore -v  
+ 
+ 
+ 证书别名   ploutog 
+ 证书名字   ploutog
+ 输入密药口令： Wstocks.@plou693acranjingqiao 
+ 您的名字与姓氏是什么 陈羽
+ 您的组织单位名称是什么 成都鹏海科技有限公司
+ 您的组织名称是什么   成都鹏海科技有限公司
+ 您所在的城市或区域名称是什么?  四川省
+ 您所在的省/市/自治区名称是什么? 成都市
+ 该单位的双字母国家/地区代码是什么?  510100 -->
+ 
 
  <!--  keytool -importkeystore -srckeystore ./ploutoApp.keystore -destkeystore ./ploutoApp.keystore -deststoretype JKS   -->
 #### Description
  
+
+
+<!-- 2022年10月27日生成的key googleplay -->
+
+<!-- keytool -genkey -alias stockploutokj -keyalg RSA -keysize 2048 -validity 36500 -keystore stockploutokj.keystore -->
+
+<!-- keytool -genkey -alias stockploutok -keyalg RSA -sigalg SHA1WithRSA -validity 36500 -keysize 1024 -keystore stockploutok.keystore -v
+
+
+keytool -importkeystore -srckeystore ./stockploutok.keystore -destkeystore stockploutokj.keystore -deststoretype JKS -->
+ <!-- 证书别名   ploutog 
+ 证书名字   ploutog
+ 输入密药口令： ranjingqiao@plou693ac  
+ 您的名字与姓氏是什么 陈羽
+ 您的组织单位名称是什么 成都鹏海科技有限公司
+ 您的组织名称是什么   成都鹏海科技有限公司
+ 您所在的城市或区域名称是什么?  四川省
+ 您所在的省/市/自治区名称是什么? 成都市
+ 该单位的双字母国家/地区代码是什么?  510100 -->
+
+
+
+
+
+
+
+
+
+
+
+
 
 #### Software Architecture
 #### <!-- [下啦加载更多](https://blog.csdn.net/qq_42543244/article/details/123637834)-->
@@ -87,7 +133,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
   plouto stock
   
   ploutostock.8@gmail.com
-  密码   Ranqiao@99
+  密码   Ranqiao@99Ranqiao@99
   18190688150
   辅助邮箱 3051813192@qq.com
   1986年06月02日
@@ -110,6 +156,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
   
   <!-- 谷歌开发者账号 
     账号 stock.plouto@gmail.com 
+    密码stockplouto@669
 	  开发者 lucky-good
   
   -->
