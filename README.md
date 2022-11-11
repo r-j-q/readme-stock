@@ -33,7 +33,7 @@ keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keys
  您的组织名称是什么   成都鹏海科技有限公司
  您所在的城市或区域名称是什么?  四川省
  您所在的省/市/自治区名称是什么? 成都市
- 该单位的双字母国家/地区代码是什么?  510100 -->
+ 该单位的双字母国家/地区代码是什么?  510100 --> 
  
 
  <!--  keytool -importkeystore -srckeystore ./ploutoApp.keystore -destkeystore ./ploutoApp.keystore -deststoretype JKS   -->
@@ -52,14 +52,21 @@ keytool -importkeystore -srckeystore ./stockploutok.keystore -destkeystore stock
  <!-- 证书别名   ploutog 
  证书名字   ploutog
  输入密药口令： ranjingqiao@plou693ac  
- 您的名字与姓氏是什么 陈羽
+ 您的名字与姓氏是什么 陈羽  
  您的组织单位名称是什么 成都鹏海科技有限公司
  您的组织名称是什么   成都鹏海科技有限公司
  您所在的城市或区域名称是什么?  四川省
  您所在的省/市/自治区名称是什么? 成都市
  该单位的双字母国家/地区代码是什么?  510100 -->
+<!--证书位置 /Users/yangqinglong/Documents/a/android/stockploutok.keystore -->
 
 
+
+<!-- 安卓包名  uni.UNIEA07A9A    -->
+<!-- keytool -list -v -keystore   stockploutok.keystore
+
+查看证书内容
+ -->
 
 
 
@@ -79,12 +86,6 @@ keytool -importkeystore -srckeystore ./stockploutok.keystore -destkeystore stock
 ) -->
 #### Installation
  
-
-#### Instructions
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### Contribution
 
@@ -156,7 +157,7 @@ keytool -importkeystore -srckeystore ./stockploutok.keystore -destkeystore stock
   
   <!-- 谷歌开发者账号 
     账号 stock.plouto@gmail.com 
-    密码stockplouto@669
+    密码 stockplouto@669
 	  开发者 lucky-good
   
   -->
@@ -196,7 +197,7 @@ keytool -importkeystore -srckeystore ./stockploutok.keystore -destkeystore stock
 
    <!-- 
    高飞卡
-  4514 6176 8879 0114
+  4514617688790114
    0426
    226
     -->
@@ -245,3 +246,7 @@ Offering decisions on investment based on data models
 
 
   <!-- 微信公众号点击底部自动回复功能 https://www.weihaobang.com/jiaocheng/2152.html  -->
+
+
+
+  <!-- java -jar pepk.jar --keystore=stockploutok.keystore --alias=stockploutok --output=output.zip --include-cert --encryptionkey=eb10fe8f7c7c9df715022017b00c6471f8ba8170b13049a11e6c09ffe3056a104a3bbe4ac5a955f4ba4fe93fc8cef27558a3eb9d2a529a2092761fb833b656cd48b9de6a -->
