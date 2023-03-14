@@ -1,39 +1,6 @@
 # gitee-flwccc
 <!-- [证书别名](https://www.jianshu.com/p/32bfcc7f27df) -->
 <!-- [证书别名2](https://zhuanlan.zhihu.com/p/499813377) -->
-<!-- 
-keytool -genkey -alias stock-a -keyalg RSA -keysize 2048 -validity 36500 -keystore stock-a.keystore
-keytool -genkey -v -alias plouto -keyalg RSA -keysize 2048 -validity 36500 -keystore /Users/ranjingqiao/Downloads/plouto.keystore
-
- keytool -genkey -alias ploutostock   -keyalg RSA -keysize 2048 -validity 36500 -keystore /Users/ranjingqiao/Downloads/stockpenhaiPlouto.keystore
-
-
-
-证书别名   ploutoApp
- 证书名字   ploutoApp
- 输入密药口令： Wstocks.@plou693acranjingqiao   
- 您的名字与姓氏是什么 陈羽
- 您的组织单位名称是什么 成都鹏海科技有限公司
- 您的组织名称是什么   成都鹏海科技有限公司
- 您所在的城市或区域名称是什么?  四川省
- 您所在的省/市/自治区名称是什么? 成都市
- 该单位的双字母国家/地区代码是什么?  510100 -->
-
-
- <!-- keytool -genkey -alias ploutoApp -keyalg RSA -sigalg SHA1WithRSA -validity 36500 -keysize 1024 -keystore ploutoApp.keystore -v   -->
-
- <!-- keytool -genkey -alias ploutog -keyalg RSA -sigalg SHA1WithRSA -validity 36500 -keysize 1024 -keystore ploutog.keystore -v  
- 
- 
- 证书别名   ploutog 
- 证书名字   ploutog
- 输入密药口令： Wstocks.@plou693acranjingqiao 
- 您的名字与姓氏是什么 陈羽
- 您的组织单位名称是什么 成都鹏海科技有限公司
- 您的组织名称是什么   成都鹏海科技有限公司
- 您所在的城市或区域名称是什么?  四川省
- 您所在的省/市/自治区名称是什么? 成都市
- 该单位的双字母国家/地区代码是什么?  510100 --> 
  
 
  <!--  keytool -importkeystore -srckeystore ./ploutoApp.keystore -destkeystore ./ploutoApp.keystore -deststoretype JKS   -->
@@ -116,7 +83,7 @@ keytool -importkeystore -srckeystore ./stockploutok.keystore -destkeystore stock
  stock.plouto@gmail.com  密码  Phstart@8Phstart@8
 
  Appid =    stock.plouto@gmail.com
- appid密码 =   Phstart@8
+ appid密码 =   Phstart@8  交付时候密码
 
  00852 55708229
  
@@ -250,3 +217,28 @@ Offering decisions on investment based on data models
 
 
   <!-- java -jar pepk.jar --keystore=stockploutok.keystore --alias=stockploutok --output=output.zip --include-cert --encryptionkey=eb10fe8f7c7c9df715022017b00c6471f8ba8170b13049a11e6c09ffe3056a104a3bbe4ac5a955f4ba4fe93fc8cef27558a3eb9d2a529a2092761fb833b656cd48b9de6a -->
+
+
+
+
+ 
+
+
+<!-- 11月28日 -->
+<!-- appid 6444748919 -->
+<!-- Bundle ID  stockpluto.com.app  -->
+<!-- Description描述文件  stockPlutoProfile  -->
+<!-- p12密码 stockplutoapp88 -->
+  <!-- ios 新签名 证书  	
+e339dbea2ddaaed811accb8ebfd15d762a05e521
+5b85a304334b7d4fb57c05f9097b91a8a23304de
+
+-->
+
+
+<!-- 一个appid密码，QQ号     Stockpluto.@901 -->
+
+
+
+
+<!-- 测试正式p12 密码 stockplouto123   测试 csstockploutoprofile  -->
